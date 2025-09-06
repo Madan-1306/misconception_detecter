@@ -1,4 +1,6 @@
-An Gen AI system that detects misconceptions, fake facts, or misleading claims in YouTube / social media videos by analyzing transcripts and cross-verifying them with trusted knowledge sources using RAG (Retrieval-Augmented Generation).
+🧠 Misconception Detector AI
+
+A Gen AI system that detects misconceptions, fake facts, or misleading claims in YouTube / social media videos by analyzing transcripts and cross-verifying them with trusted knowledge sources using RAG (Retrieval-Augmented Generation).
 
 🚀 Project Overview
 
