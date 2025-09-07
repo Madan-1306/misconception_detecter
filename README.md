@@ -1,6 +1,7 @@
 🧠 Misconception Detector AI
 
 A Gen AI system that detects misconceptions, fake facts, or misleading claims in YouTube / social media videos by analyzing transcripts and cross-verifying them with trusted knowledge sources using RAG (Retrieval-Augmented Generation).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Project Overview
 
@@ -19,6 +20,8 @@ Returning a fact-check report with labels like:
 ⚠️ Misleading / Partially true
 
 ❌ Incorrect / Fake fact
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tech Stack
 
@@ -40,6 +43,8 @@ YouTube API / Whisper AI (for speech-to-text)
 
 Deployment: Docker + Cloud (GCP / AWS / HuggingFace Spaces)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔎 Workflow
 
 Input: YouTube video link / uploaded video.
@@ -56,6 +61,8 @@ LLM evaluates if the claim is ✅ correct, ⚠️ partially true, or ❌ false.
 
 Output: Display results as fact-check report with confidence scores.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📊 Example Output
 
 Video Claim: "Humans use only 10% of their brain."
@@ -67,6 +74,8 @@ Video Claim: "Humans use only 10% of their brain."
 🔗 Sources: Wikipedia
 , [PubMed]
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 💡 Future Enhancements
 
 Real-time browser extension for YouTube/Instagram.
@@ -75,6 +84,10 @@ Multi-language support for global content.
 
 Integration with Content Credentials to flag AI-generated videos.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🌍 Impact
 
 Helps users separate facts from fiction, fighting misinformation in education, science, health, and news.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
