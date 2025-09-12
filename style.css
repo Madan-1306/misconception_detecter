@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2d89ef;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  margin: 20px 0;
+  border: 2px solid #2d89ef;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #2d89ef;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #1c5db0;
+}
+
+#results {
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.misconception {
+  color: red;
+  font-weight: bold;
+}
+
+.correction {
+  color: green;
+  font-weight: bold;
+}
